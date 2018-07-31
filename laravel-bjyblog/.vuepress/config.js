@@ -13,10 +13,17 @@ module.exports = {
         ],
         sidebar: [
             {
+                title: '环境搭建',
+                collapsable: false,
+                children: [
+                    ['Windows', 'Windows'],
+                    ['Linux', 'Linux']
+                ]
+            },
+            {
                 title: '安装使用',
                 collapsable: false,
                 children: [
-                    ['环境搭建', '环境搭建'],
                     ['安装', '安装'],
                 ]
             },
