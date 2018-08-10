@@ -31,7 +31,7 @@ module.exports = {
                 title: '全文搜索',
                 collapsable: false,
                 children: [
-                    ['MySQL', 'MySQL'],
+                    ['SQL', 'SQL'],
                     ['TNTSearch', 'TNTSearch'],
                     ['Elasticsearch', 'Elasticsearch'],
                 ]
