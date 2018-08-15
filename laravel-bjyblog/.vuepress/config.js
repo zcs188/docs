@@ -43,6 +43,13 @@ module.exports = {
                     ['第三方登录', '第三方登录']
                 ]
             },
+            {
+                title: '常见问题',
+                collapsable: false,
+                children: [
+                    ['更新文章报错', '更新文章报错']
+                ]
+            },
         ],
     },
 }
