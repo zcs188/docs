@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>介绍 | laravel-print</title>
+    <meta name="description" content="以简洁的方式打印数据">
+    <link rel="icon" href="/docs/laravel-print/favicon.ico">
+    
+    <link rel="preload" href="/docs/laravel-print/assets/css/0.styles.7254bd4e.css" as="style"><link rel="preload" href="/docs/laravel-print/assets/js/app.87c2a1b4.js" as="script"><link rel="preload" href="/docs/laravel-print/assets/js/3.f8154584.js" as="script"><link rel="prefetch" href="/docs/laravel-print/assets/js/2.61c5963e.js"><link rel="prefetch" href="/docs/laravel-print/assets/js/4.3da88934.js">
+    <link rel="stylesheet" href="/docs/laravel-print/assets/css/0.styles.7254bd4e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/docs/laravel-print/" class="home-link router-link-exact-active router-link-active"><!----><span class="site-name">
+      laravel-print
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/laravel-print/" class="nav-link router-link-exact-active router-link-active">Home</a></div><div class="nav-item"><a href="https://baijunyao.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  白俊遥博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><!----></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/laravel-print/" class="nav-link router-link-exact-active router-link-active">Home</a></div><div class="nav-item"><a href="https://baijunyao.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  白俊遥博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><!----></nav><ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>安装使用</span><!----></p><ul class="sidebar-group-items"><li><a href="/docs/laravel-print/安装.html" class="sidebar-link">安装</a></li></ul></div></li></ul></div><div class="page"><div class="content"><h3 id="介绍"><a href="#介绍" aria-hidden="true" class="header-anchor">#</a> 介绍</h3><p>laravel 中有个 <code>dump</code> 可以用来打印数据；<br><img src="https://baijunyao.com/uploads/article/20180513/5af85d1c7c9c7.jpg" alt><br>
+但是也存在这很多的不便利；<br>
+咱一条一条来吐槽哈；<br>
+撒气爱子：</p><ol><li>打印出来的数据默认是折叠的；
+<img src="https://baijunyao.com/uploads/article/20180513/5af85d2738091.jpg" alt><br>
+我打印数据果断是要看具体内容的；<br>
+然鹅这还需要我们手动层层点开；<br>
+想想也是心累；</li><li>打印模型时展示了太多的属性；<br><img src="https://baijunyao.com/uploads/article/20180513/5af85d30bec33.jpg" alt><br>
+当我们一层一层的剥开它的心后；
+终于才能在 <code>attributes</code> 中找到我们想要的数据；<br>
+那么多的属性堆在这；<br>
+给的再多不如懂我；<br>
+看看也是眼累；</li><li>chrome 调试 ajax 的时候不能正常展示打印的样式；</li></ol><p>于是 laravel-print 横空出世；<br>
+无图言* ；<br><img src="https://baijunyao.com/uploads/article/20180513/5af85d39b420a.jpg" alt><br>
+默认以数组的形式展示数据；<br>
+默认展开数据；<br>
+调试面板下的 Network 中的 Preview 完美展示；</p><h3 id="安装使用"><a href="#安装使用" aria-hidden="true" class="header-anchor">#</a> 安装使用</h3><p>好了下面进入安装使用环节；</p><div class="language-bash extra-class"><pre class="language-bash"><code>composer require baijunyao/laravel-print
+</code></pre></div><p>需要打印的时候使用 <code>p($data)</code> 代替 <code>dump($data)</code>;<br>
+使用 <code>pd($data)</code> 代替 <code>dd($data)</code>;</p><h3 id="链接"><a href="#链接" aria-hidden="true" class="header-anchor">#</a> 链接</h3><p><a href="https://baijunyao.com/article/152" target="_blank" rel="noopener noreferrer">开源项目系列之laravel-print以简洁的方式打印数据<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div><div class="page-edit"><!----><!----></div><!----></div></div></div>
+    <script src="/docs/laravel-print/assets/js/3.f8154584.js" defer></script><script src="/docs/laravel-print/assets/js/app.87c2a1b4.js" defer></script>
+  </body>
+</html>

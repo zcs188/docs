@@ -44,10 +44,11 @@ module.exports = {
                 ]
             },
             {
-                title: '常见问题',
+                title: '其他',
                 collapsable: false,
                 children: [
-                    ['更新文章报错', '更新文章报错']
+                    ['分支说明', '分支说明'],
+                    ['更新记录', '更新记录'],
                 ]
             },
         ],
