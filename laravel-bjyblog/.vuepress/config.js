@@ -40,7 +40,8 @@ module.exports = {
                 title: '后台配置',
                 collapsable: false,
                 children: [
-                    ['第三方登录', '第三方登录']
+                    ['第三方登录', '第三方登录'],
+                    ['QQ群设置', 'QQ群设置'],
                 ]
             },
             {
