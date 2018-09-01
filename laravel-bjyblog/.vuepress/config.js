@@ -25,6 +25,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['安装', '安装'],
+                    ['部署到生产环境', '部署到生产环境'],
                     ['从tp版升级', '从tp版升级'],
                 ]
             },
