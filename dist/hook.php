@@ -8,11 +8,13 @@ $config = include 'config.php';
 $password = empty($config['password']) ? '' : $config['password'];
 $path = empty($config['path']) ? '' : $config['path'];
 
-if (empty($_POST['password'])) {
+$data = json_decode(file_get_contents('php://input'), true);
+
+if (empty($data['password'])) {
     die('参数错误');
 }
 
-if ($password !== $_POST['password']) {
+if ($password !== $data['password']) {
     die('密码错误');
 }
 
@@ -22,3 +24,5 @@ git pull;
 PHP;
 
 shell_exec($bash);
+
+echo 'success';
