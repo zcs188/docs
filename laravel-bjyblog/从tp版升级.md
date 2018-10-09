@@ -12,4 +12,5 @@ OLD_DB_DATABASE=oldblog
 OLD_DB_USERNAME=root
 OLD_DB_PASSWORD=
 ```
-然后运行 `php artisan migration:fromThinkPHPBjyBlog`
+然后运行 `php artisan migration:fromThinkPHPBjyBlog`  
+然后根据 [更新记录](https://baijunyao.com/docs/laravel-bjyblog/更新记录.html) 升级；
