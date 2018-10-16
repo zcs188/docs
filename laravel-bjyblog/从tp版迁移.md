@@ -27,4 +27,5 @@ DB_PASSWORD=
 ```
 把账号密码替换成自己的；  
 然后运行 `php artisan migration:fromThinkPHPBjyBlog` 命令；  
-然后根据 [更新记录](https://baijunyao.com/docs/laravel-bjyblog/更新记录.html) 升级；
+然后根据 [更新记录](https://baijunyao.com/docs/laravel-bjyblog/更新记录.html) 升级；  
+把 thinphp-bjyblog 项目中的 `/Upload/image/ueditor/` 下的文件夹复制到 laravel-bjyblog 项目的 `/public/uploads/article/` 目录下；
