@@ -9,6 +9,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
+            { text: '其他文档', link: 'https://baijunyao.com/docs' },
             { text: '白俊遥博客', link: 'https://baijunyao.com' },
         ],
         sidebar: [
