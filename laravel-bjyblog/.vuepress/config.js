@@ -41,6 +41,13 @@ module.exports = {
                 ]
             },
             {
+                title: '用户管理',
+                collapsable: false,
+                children: [
+                    ['第三方用户', '第三方用户'],
+                ]
+            },
+            {
                 title: '后台配置',
                 collapsable: false,
                 children: [
