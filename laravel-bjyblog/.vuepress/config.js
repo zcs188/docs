@@ -63,6 +63,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['分支说明', '分支说明'],
+                    ['版本说明', '版本说明'],
                     ['更新记录', '更新记录'],
                 ]
             },
