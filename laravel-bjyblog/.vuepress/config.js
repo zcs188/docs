@@ -41,6 +41,21 @@ module.exports = {
                 ]
             },
             {
+                title: '分类菜单',
+                collapsable: false,
+                children: [
+                    ['分类管理', '分类管理'],
+                    ['菜单管理', '菜单管理'],
+                ]
+            },
+            {
+                title: '文章管理',
+                collapsable: false,
+                children: [
+                    ['文章列表', '文章列表'],
+                ]
+            },
+            {
                 title: '用户管理',
                 collapsable: false,
                 children: [
