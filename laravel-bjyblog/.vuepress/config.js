@@ -49,6 +49,13 @@ module.exports = {
                 ]
             },
             {
+                title: '标签管理',
+                collapsable: false,
+                children: [
+                    ['标签管理', '标签管理'],
+                ]
+            },
+            {
                 title: '文章管理',
                 collapsable: false,
                 children: [
