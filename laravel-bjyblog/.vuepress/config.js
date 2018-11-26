@@ -59,7 +59,7 @@ module.exports = {
                 title: '文章管理',
                 collapsable: false,
                 children: [
-                    ['文章列表', '文章列表'],
+                    ['文章管理', '文章管理'],
                 ]
             },
             {
