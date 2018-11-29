@@ -66,6 +66,7 @@ module.exports = {
                 title: '用户管理',
                 collapsable: false,
                 children: [
+                    ['管理员列表', '管理员列表'],
                     ['第三方用户', '第三方用户'],
                 ]
             },
