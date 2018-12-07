@@ -63,6 +63,13 @@ module.exports = {
                 ]
             },
             {
+                title: '友情链接',
+                collapsable: false,
+                children: [
+                    ['友情链接', '友情链接'],
+                ]
+            },
+            {
                 title: '用户管理',
                 collapsable: false,
                 children: [
