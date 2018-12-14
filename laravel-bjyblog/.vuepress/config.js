@@ -67,6 +67,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['友情链接', '友情链接'],
+                    ['推荐博客', '推荐博客'],
                 ]
             },
             {
