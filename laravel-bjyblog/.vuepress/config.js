@@ -79,6 +79,13 @@ module.exports = {
                 ]
             },
             {
+                title: '随言碎语',
+                collapsable: false,
+                children: [
+                    ['随言碎语列表', '随言碎语列表'],
+                ]
+            },
+            {
                 title: '后台配置',
                 collapsable: false,
                 children: [
