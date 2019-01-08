@@ -1,3 +1,4 @@
+想在线实验可以使用[腾讯云开发者实验室](https://cloud.tencent.com/developer/labs/lab/10433)；  
 elasticsearch 需要 java8 以上；  
 这里安装最新版的 java10 ；  
 下载 jdk  
