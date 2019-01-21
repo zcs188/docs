@@ -61,6 +61,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['文章管理', '文章管理'],
+                    ['文章内容替换', '文章内容替换'],
                 ]
             },
             {
