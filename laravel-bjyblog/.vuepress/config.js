@@ -84,6 +84,7 @@ module.exports = {
                 title: '评论管理',
                 collapsable: false,
                 children: [
+                    ['评论管理', '评论管理'],
                     ['评论内容替换', '评论内容替换'],
                 ]
             },
