@@ -37,6 +37,6 @@ composer require baijunyao/laravel-print
 [开源项目系列之laravel-print以简洁的方式打印数据](https://baijunyao.com/article/152)
 
 ## 链接
-- 博客：https://baijunyao.com  
-- github：https://github.com/baijunyao/laravel-print  
-- gitee：https://gitee.com/baijunyao/laravel-print  
+- 博客：[https://baijunyao.com](https://baijunyao.com)  
+- github：[https://github.com/baijunyao/laravel-print](https://github.com/baijunyao/laravel-print)
+- gitee：[https://gitee.com/baijunyao/laravel-print](https://gitee.com/baijunyao/laravel-print)
