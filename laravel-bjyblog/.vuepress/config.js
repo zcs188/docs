@@ -1,10 +1,10 @@
 module.exports = {
     locales: {
-        // '/en/': {
-        //   lang: 'English',
-        //   title: 'laravel-bjyblog',
-        //   description: 'Laravel Blog'
-        // },
+        '/en/': {
+          lang: 'English',
+          title: 'laravel-bjyblog',
+          description: 'Laravel Blog'
+        },
         '/': {
           lang: '简体中文',
           selectText: '选择语言',
@@ -26,7 +26,7 @@ module.exports = {
                 nav: [
                     { text: 'Home', link: '/' },
                     { text: '其他文档', link: 'https://baijunyao.com/docs' },
-                    { text: '白俊遥博客', link: 'https://baijunyao.com' },
+                    { text: '博客', link: 'https://baijunyao.com' },
                 ],
                 sidebar: [
                     {
@@ -134,6 +134,14 @@ module.exports = {
                             ['特别感谢', '特别感谢'],
                         ]
                     },
+                ],
+            },
+            '/en/': {
+                selectText: 'Language',
+                nav: [
+                    { text: 'Home', link: '/' },
+                    { text: 'Other Docs', link: 'https://baijunyao.com/docs' },
+                    { text: 'Blog', link: 'https://baijunyao.com' },
                 ],
             }
         }
