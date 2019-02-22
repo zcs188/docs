@@ -149,7 +149,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Installation', 'Installation'],
-                            // ['/en/清空测试数据', '清空测试数据'],
+                            ['/en/ClearTestData', 'Clear Test Data'],
                             // ['部署到生产环境', '部署到生产环境'],
                             // ['升级版本', '升级版本'],
                             // ['从tp版迁移', '从tp版迁移'],
