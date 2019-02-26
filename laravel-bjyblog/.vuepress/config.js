@@ -150,7 +150,7 @@ module.exports = {
                         children: [
                             ['/en/Installation', 'Installation'],
                             ['/en/ClearTestData', 'Clear Test Data'],
-                            // ['部署到生产环境', '部署到生产环境'],
+                            ['/en/DeployToProduction', 'Deploy to Production'],
                             // ['升级版本', '升级版本'],
                             // ['从tp版迁移', '从tp版迁移'],
                         ]
