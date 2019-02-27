@@ -151,7 +151,7 @@ module.exports = {
                             ['/en/Installation', 'Installation'],
                             ['/en/ClearTestData', 'Clear Test Data'],
                             ['/en/DeployToProduction', 'Deploy to Production'],
-                            // ['升级版本', '升级版本'],
+                            ['/en/Upgrade', 'Upgrade'],
                             // ['从tp版迁移', '从tp版迁移'],
                         ]
                     },
