@@ -152,18 +152,8 @@ module.exports = {
                             ['/en/ClearTestData', 'Clear Test Data'],
                             ['/en/DeployToProduction', 'Deploy to Production'],
                             ['/en/Upgrade', 'Upgrade'],
-                            // ['从tp版迁移', '从tp版迁移'],
                         ]
                     },
-                    // {
-                    //     title: '全文搜索',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['/en/SQL', 'SQL'],
-                    //         ['TNTSearch', 'TNTSearch'],
-                    //         ['Elasticsearch', 'Elasticsearch'],
-                    //     ]
-                    // },
                     // {
                     //     title: '分类菜单',
                     //     collapsable: false,
