@@ -154,14 +154,14 @@ module.exports = {
                             ['/en/Upgrade', 'Upgrade'],
                         ]
                     },
-                    // {
-                    //     title: '分类菜单',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['分类管理', '分类管理'],
-                    //         ['菜单管理', '菜单管理'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Category & Nav',
+                        collapsable: false,
+                        children: [
+                            ['/en/Category', 'Category'],
+                            // ['菜单管理', '菜单管理'],
+                        ]
+                    },
                     // {
                     //     title: '标签管理',
                     //     collapsable: false,
