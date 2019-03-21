@@ -159,7 +159,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Category', 'Category'],
-                            // ['菜单管理', '菜单管理'],
+                            ['/en/Nav', 'Nav'],
                         ]
                     },
                     // {
