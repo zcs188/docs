@@ -162,13 +162,13 @@ module.exports = {
                             ['/en/Nav', 'Nav'],
                         ]
                     },
-                    // {
-                    //     title: '标签管理',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['标签管理', '标签管理'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Tag',
+                        collapsable: false,
+                        children: [
+                            ['/en/Tag', 'Tag'],
+                        ]
+                    },
                     // {
                     //     title: '文章管理',
                     //     collapsable: false,
