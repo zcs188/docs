@@ -139,7 +139,7 @@ module.exports = {
             '/en/': {
                 selectText: 'Language',
                 nav: [
-                    { text: 'Home', link: '/' },
+                    { text: 'Home', link: '/en' },
                     { text: 'Other Docs', link: 'https://baijunyao.com/docs' },
                     { text: 'Blog', link: 'https://baijunyao.com' },
                 ],
@@ -169,14 +169,14 @@ module.exports = {
                             ['/en/Tag', 'Tag'],
                         ]
                     },
-                    // {
-                    //     title: '文章管理',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['文章管理', '文章管理'],
-                    //         ['文章内容替换', '文章内容替换'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Article',
+                        collapsable: false,
+                        children: [
+                            ['/en/Article', 'Article'],
+                            // ['文章内容替换', '文章内容替换'],
+                        ]
+                    },
                     // {
                     //     title: '友情链接',
                     //     collapsable: false,
