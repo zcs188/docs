@@ -174,7 +174,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Article', 'Article'],
-                            // ['文章内容替换', '文章内容替换'],
+                            ['/en/BatchReplaceArticleWord', 'Batch Replace Article Word'],
                         ]
                     },
                     // {
