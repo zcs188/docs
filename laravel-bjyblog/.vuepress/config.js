@@ -174,17 +174,17 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Article', 'Article'],
-                            ['/en/BatchReplaceArticleWord', 'Batch Replace Article Word'],
+                            ['/en/BatchReplaceArticleWord', 'Replace Article Word'],
                         ]
                     },
-                    // {
-                    //     title: '友情链接',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['友情链接', '友情链接'],
-                    //         ['推荐博客', '推荐博客'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Friendship Link',
+                        collapsable: false,
+                        children: [
+                            ['/en/FriendshipLink', 'Friendship Link'],
+                            // ['推荐博客', '推荐博客'],
+                        ]
+                    },
                     // {
                     //     title: '用户管理',
                     //     collapsable: false,
