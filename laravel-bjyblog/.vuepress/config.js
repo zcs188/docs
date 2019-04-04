@@ -182,7 +182,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/FriendshipLink', 'Friendship Link'],
-                            // ['推荐博客', '推荐博客'],
+                            ['/en/RecommendBlog', 'Recommend Blog'],
                         ]
                     },
                     // {
