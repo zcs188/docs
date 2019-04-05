@@ -185,14 +185,14 @@ module.exports = {
                             ['/en/RecommendBlog', 'Recommend Blog'],
                         ]
                     },
-                    // {
-                    //     title: '用户管理',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['管理员列表', '管理员列表'],
-                    //         ['第三方用户', '第三方用户'],
-                    //     ]
-                    // },
+                    {
+                        title: 'User',
+                        collapsable: false,
+                        children: [
+                            ['/en/Manager', 'Manager'],
+                            // ['第三方用户', '第三方用户'],
+                        ]
+                    },
                     // {
                     //     title: '评论管理',
                     //     collapsable: false,
