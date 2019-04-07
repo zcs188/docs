@@ -190,7 +190,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Manager', 'Manager'],
-                            // ['第三方用户', '第三方用户'],
+                            ['/en/ThirdPartyUser', 'Third Party User'],
                         ]
                     },
                     // {
