@@ -193,14 +193,14 @@ module.exports = {
                             ['/en/ThirdPartyUser', 'Third Party User'],
                         ]
                     },
-                    // {
-                    //     title: '评论管理',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['评论管理', '评论管理'],
-                    //         ['评论内容替换', '评论内容替换'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Comment',
+                        collapsable: false,
+                        children: [
+                            ['/en/Comment', 'Comment'],
+                            // ['评论内容替换', '评论内容替换'],
+                        ]
+                    },
                     // {
                     //     title: '随言碎语',
                     //     collapsable: false,
