@@ -198,7 +198,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Comment', 'Comment'],
-                            // ['评论内容替换', '评论内容替换'],
+                            ['/en/BatchReplaceCommentWord', 'Replace Comment Word'],
                         ]
                     },
                     // {
