@@ -201,13 +201,13 @@ module.exports = {
                             ['/en/BatchReplaceCommentWord', 'Replace Comment Word'],
                         ]
                     },
-                    // {
-                    //     title: '随言碎语',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['随言碎语列表', '随言碎语列表'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Chat',
+                        collapsable: false,
+                        children: [
+                            ['/en/Chat', 'Chat'],
+                        ]
+                    },
                     // {
                     //     title: '后台配置',
                     //     collapsable: false,
