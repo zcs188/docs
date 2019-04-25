@@ -213,7 +213,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/AdminLogin', 'Admin Login'],
-                            // ['邮箱设置', '邮箱设置'],
+                            ['/en/Mail', 'Mail'],
                             // ['第三方登录', '第三方登录'],
                             // ['QQ群设置', 'QQ群设置'],
                             // ['开源项目', '开源项目'],
