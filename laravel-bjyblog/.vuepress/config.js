@@ -214,7 +214,7 @@ module.exports = {
                         children: [
                             ['/en/AdminLogin', 'Admin Login'],
                             ['/en/Mail', 'Mail'],
-                            // ['第三方登录', '第三方登录'],
+                            ['/en/OAuth', 'OAuth'],
                             // ['QQ群设置', 'QQ群设置'],
                             // ['开源项目', '开源项目'],
                             // ['备份', '备份'],
