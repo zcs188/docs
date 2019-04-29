@@ -215,8 +215,7 @@ module.exports = {
                             ['/en/AdminLogin', 'Admin Login'],
                             ['/en/Mail', 'Mail'],
                             ['/en/OAuth', 'OAuth'],
-                            // ['QQ群设置', 'QQ群设置'],
-                            // ['开源项目', '开源项目'],
+                            ['/en/OpenSource', 'Open Source'],
                             // ['备份', '备份'],
                             // ['其他配置', '其他配置'],
                         ]
