@@ -216,7 +216,7 @@ module.exports = {
                             ['/en/Mail', 'Mail'],
                             ['/en/OAuth', 'OAuth'],
                             ['/en/OpenSource', 'Open Source'],
-                            // ['备份', '备份'],
+                            ['/en/Backup', 'Backup'],
                             // ['其他配置', '其他配置'],
                         ]
                     },
