@@ -220,16 +220,16 @@ module.exports = {
                             ['/en/OtherConfig', 'Other Config'],
                         ]
                     },
-                    // {
-                    //     title: '其他',
-                    //     collapsable: false,
-                    //     children: [
-                    //         ['分支说明', '分支说明'],
-                    //         ['版本说明', '版本说明'],
-                    //         ['更新记录', '更新记录'],
-                    //         ['特别感谢', '特别感谢'],
-                    //     ]
-                    // },
+                    {
+                        title: 'Other',
+                        collapsable: false,
+                        children: [
+                            ['/en/Branch', 'Branch'],
+                            // ['版本说明', '版本说明'],
+                            // ['更新记录', '更新记录'],
+                            // ['特别感谢', '特别感谢'],
+                        ]
+                    },
                 ],
             }
         }

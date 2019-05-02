@@ -1,0 +1,3 @@
+- develop: My blog will use this branch to test new features.
+- master: Stable code for production environments.
+- feature/*: Branch for adding new features.
