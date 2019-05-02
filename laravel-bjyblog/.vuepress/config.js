@@ -217,7 +217,7 @@ module.exports = {
                             ['/en/OAuth', 'OAuth'],
                             ['/en/OpenSource', 'Open Source'],
                             ['/en/Backup', 'Backup'],
-                            // ['其他配置', '其他配置'],
+                            ['/en/OtherConfig', 'Other Config'],
                         ]
                     },
                     // {
