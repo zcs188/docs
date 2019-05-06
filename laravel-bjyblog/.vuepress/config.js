@@ -225,9 +225,7 @@ module.exports = {
                         collapsable: false,
                         children: [
                             ['/en/Branch', 'Branch'],
-                            // ['版本说明', '版本说明'],
-                            // ['更新记录', '更新记录'],
-                            // ['特别感谢', '特别感谢'],
+                            ['/en/Thanks', 'Thanks'],
                         ]
                     },
                 ],

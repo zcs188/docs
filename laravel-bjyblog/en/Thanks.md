@@ -1,0 +1,15 @@
+### Contributors
+[Han-MeiM](https://github.com/Han-MeiM)
+### Front end
+- [gentelella](https://colorlib.com/polygon/gentelella/index.html)
+- [editor.md](https://pandao.github.io/editor.md)
+- [prism](https://prismjs.com)
+- [pace](https://github.hubspot.com/pace/docs/welcome)
+- [bootstrap](https://getbootstrap.com)
+- [Fluidbox](https://github.com/terrymun/Fluidbox)
+- [iCheck](https://github.com/fronteed/icheck)
+- [bootstrap-switch](https://github.com/Bttstrp/bootstrap-switch)
+- [font-awesome](https://github.com/FortAwesome/Font-Awesome)
+- [jasny-bootstrap](https://github.com/jasny/bootstrap)
+- [animate.css](https://github.com/daneden/animate.css)
+- [switchery](https://github.com/abpetkov/switchery)
