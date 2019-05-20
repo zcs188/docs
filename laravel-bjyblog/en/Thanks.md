@@ -1,5 +1,7 @@
 ### Contributors
-[Han-MeiM](https://github.com/Han-MeiM)
+- [Han-MeiM](https://github.com/Han-MeiM)
+- [loyating](https://github.com/loyating)
+- [khyoz](https://github.com/khyoz)
 ### Front end
 - [gentelella](https://colorlib.com/polygon/gentelella/index.html)
 - [editor.md](https://pandao.github.io/editor.md)
