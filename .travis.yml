@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+- node
+
+addons:
+  ssh_known_hosts: $DEPLOY_IP:$DEPLOY_PORT
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_370926310f75_key -iv $encrypted_370926310f75_iv
+  -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+
+script:
+- echo 'completed'
+
+deploy:
+  provider: script
+  script: ssh -i /tmp/deploy_rsa -p $DEPLOY_PORT $DEPLOY_USER@$DEPLOY_IP "cd $DEPLOY_PATH && git fetch origin master && git reset --hard origin/master"
+  on:
+    branch: master
+
+notifications:
+  slack: baijunyao:RwKXeTdqgzVG1gAgGTyry4B7

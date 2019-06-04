@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "docs:dev:laravel-bjyblog": "vuepress dev laravel-bjyblog",
+    "docs:build:laravel-bjyblog": "vuepress build laravel-bjyblog"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
