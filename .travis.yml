@@ -20,7 +20,7 @@ script:
 deploy:
   provider: script
   script: 
-    - ssh -p $DEPLOY_PORT $DEPLOY_USER@$DEPLOY_HOST "cd $DEPLOY_PATH && git fetch origin master && git reset --hard origin/master"
+    - ssh -p $DEPLOY_PORT $DEPLOY_USER@$DEPLOY_HOST "cd $DEPLOY_PATH && git fetch && git reset --hard origin/master"
   on:
     branch: master
 
