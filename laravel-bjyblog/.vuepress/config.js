@@ -121,6 +121,7 @@ module.exports = {
                             ['QQ群设置', 'QQ群设置'],
                             ['开源项目', '开源项目'],
                             ['备份', '备份'],
+                            ['社会化分享', '社会化分享'],
                             ['其他配置', '其他配置'],
                         ]
                     },
@@ -217,6 +218,7 @@ module.exports = {
                             ['/en/OAuth', 'OAuth'],
                             ['/en/OpenSource', 'Open Source'],
                             ['/en/Backup', 'Backup'],
+                            ['/en/SocialShare', 'SocialShare'],
                             ['/en/OtherConfig', 'Other Config'],
                         ]
                     },
