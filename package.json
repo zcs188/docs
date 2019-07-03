@@ -5,6 +5,6 @@
     "docs:build:laravel-bjyblog": "vuepress build laravel-bjyblog"
   },
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.0.2"
   }
 }
