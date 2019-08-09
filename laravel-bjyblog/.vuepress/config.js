@@ -215,7 +215,7 @@ module.exports = {
                         children: [
                             ['/en/AdminLogin', 'Admin Login'],
                             ['/en/Mail', 'Mail'],
-                            ['/en/OAuth', 'OAuth'],
+                            ['/en/SocialLogin', 'SocialLogin'],
                             ['/en/OpenSource', 'Open Source'],
                             ['/en/Backup', 'Backup'],
                             ['/en/SocialShare', 'SocialShare'],
