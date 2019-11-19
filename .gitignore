@@ -1,2 +1,4 @@
 /node_modules
-dist/config.php
+/dist/*
+!/dist/index.html
+!/dist/assets

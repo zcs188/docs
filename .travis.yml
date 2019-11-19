@@ -20,7 +20,7 @@ script:
 deploy:
   provider: script
   script: 
-    - ssh -p $DEPLOY_PORT $DEPLOY_USER@$DEPLOY_HOST "cd $DEPLOY_PATH && git fetch && git reset --hard origin/master"
+    - ssh -p $DEPLOY_PORT $DEPLOY_USER@$DEPLOY_HOST "cd $DEPLOY_PATH && git fetch && git reset --hard origin/master && vuepress build laravel-bjyblog && vuepress build laravel-print && vuepress build laravel-scout-elasticsearch && vuepress build thinkphp-bjyblog && vuepress build thinkphp-bjyadmin"
   on:
     branch: master
 
