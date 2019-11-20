@@ -16,6 +16,6 @@ crontab -e
 ```
 Add the following code
 ```bash
-* * * * * cd /baijunyao.com/artisan && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
 ```
-Change `/baijunyao.com` to your project path;
+Change `/path-to-your-project` to your project path;
