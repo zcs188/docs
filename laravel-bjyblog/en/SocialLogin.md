@@ -4,7 +4,7 @@ You can log in using github, google, facebook, qq, weibo.
 
 Name | Redirect URL
 --- | ---
-github | https://baijunyao.com/auth/oauth/handleProviderCallback/qq 
+github | https://baijunyao.com/auth/oauth/handleProviderCallback/github 
 google | https://baijunyao.com/auth/oauth/handleProviderCallback/google
 facebook | https://baijunyao.com/auth/oauth/handleProviderCallback/facebook
 qq | https://baijunyao.com/auth/oauth/handleProviderCallback/qq
