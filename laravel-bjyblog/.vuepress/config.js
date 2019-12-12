@@ -20,6 +20,9 @@ module.exports = {
     ],
     dest: 'dist/laravel-bjyblog',
     themeConfig: {
+        repo: 'baijunyao/docs',
+        docsDir: 'laravel-bjyblog',
+        editLinks: true,
         locales: {
             '/': {
                 selectText: '选择语言',
