@@ -36,3 +36,7 @@ If you visit the site before `db:seed`, you need to clear cache:
 ```bash
 php artisan cache:clear
 ```
+To create the symbolic link:  
+```bash
+php artisan storage:link
+```  
