@@ -236,7 +236,10 @@ module.exports = {
                     },
                 ],
             }
+        },
+        algolia: {
+            apiKey: '2e9fb1ac108e46ba7f5f7a69e3dbd66e',
+            indexName: 'laravel-bjyblog'
         }
-
     },
 }
